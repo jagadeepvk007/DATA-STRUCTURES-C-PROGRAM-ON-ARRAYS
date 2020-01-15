@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
-int* create(int size)
 
+ int* create(int size)
   {
    return((int*)malloc(sizeof(int)*size));
   }
