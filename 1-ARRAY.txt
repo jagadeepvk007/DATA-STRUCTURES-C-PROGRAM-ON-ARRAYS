@@ -1,9 +1,12 @@
 #include<stdio.h>
 #include<conio.h>
 int* create(int size)
+
   {
    return((int*)malloc(sizeof(int)*size));
   }
+  
+  
  void display(int a[],int n)
   {
    int i;
@@ -35,6 +38,8 @@ int* create(int size)
 	a[i]=a[i+1];
       }
     }
+
+
 
     void main()
      {
